@@ -3,6 +3,8 @@
 This is a bootstrap project containing all the steps I do before starting a new project. 
 The goal is to speed this process up and ultimately automate it.
 
+The laravel version used is v5.2.35.
+
 ### Instructions
 
 - Clone and delete .git directory to have a clean fork
