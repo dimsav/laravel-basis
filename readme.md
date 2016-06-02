@@ -3,8 +3,9 @@
 This is an bootstrap project containing all the steps I do before starting a new project. 
 The goal is to speed this process up and ultimately automate it.
 
-### Installation
+### Instructions
 
+- Clone and delete .git directory to have a clean fork
 - Run composer install
 - Copy `.env.example` to `.env`
 - Run `php artisan key:generate`
