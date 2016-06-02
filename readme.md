@@ -1,6 +1,6 @@
 # Laravel App Basis
 
-This is an bootstrap project containing all the steps I do before starting a new project. 
+This is a bootstrap project containing all the steps I do before starting a new project. 
 The goal is to speed this process up and ultimately automate it.
 
 ### Instructions
