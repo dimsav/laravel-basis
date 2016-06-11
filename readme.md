@@ -13,6 +13,9 @@ The laravel version used is v5.2.35.
   - Run `cp .env.example .env` to copy `.env.example` to `.env`
   - Run `php artisan key:generate`
   - Run `php artisan app:name Some\\Namespace`
+- Run ide helper
+  - Run `ide-helper:generate`
+  - Run `ide-helper:meta` (for phpstorm)
 - Push project to github
   - Run `git init`
   - Run `git add .`
