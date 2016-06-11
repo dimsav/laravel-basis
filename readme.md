@@ -9,7 +9,7 @@ The laravel version used is v5.2.35.
 
 - Clone and delete .git directory to have a clean fork
 - Run composer install
-- Copy `.env.example` to `.env`
+- Run `cp .env.example .env` to copy `.env.example` to `.env`
 - Run `php artisan key:generate`
 - Run `php artisan app:name Some\\Namespace`
 - Add project in circleci.com
