@@ -158,6 +158,7 @@ return [
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         PhanAn\CascadingConfig\CascadingConfigServiceProvider::class,
+        Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider::class,
     ],
 
     /*
@@ -204,6 +205,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'Bugsnag' => Bugsnag\BugsnagLaravel\BugsnagFacade::class,
     ],
 
 ];
