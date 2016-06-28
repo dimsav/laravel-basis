@@ -11,12 +11,12 @@ The laravel version used is v5.2.35.
 - Run `composer install`
 
 - Initialize laravel project:
-  - Copy `.env.example` to `.env`
+  - Copy `.env.example` to `.env`: `cp .env.example .env`
   - Run `php artisan key:generate`
   - Run `php artisan app:name Some\\Namespace`
 - Run ide helper
-  - Run `ide-helper:generate`
-  - Run `ide-helper:meta` (for phpstorm)
+  - Run `php artisan ide-helper:generate`
+  - Run `php artisan ide-helper:meta` (for phpstorm)
 - Push project to github
   - Run `git init`
   - Run `git add .`
@@ -25,4 +25,5 @@ The laravel version used is v5.2.35.
   - You add the remote git repository and push (follow github instructions)
 - Setup bugsnag
   - Enter your bugsnag key in `config/bugsnag.php`
-- Add project in circleci.com
+- Add project in circleci.com:
+  - Go to [circleci dashboard](https://circleci.com/dashboard) and select "Add projects"
