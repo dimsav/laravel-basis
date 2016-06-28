@@ -27,3 +27,13 @@ The laravel version used is v5.2.35.
   - Enter your bugsnag key in `config/bugsnag.php`
 - Add project in circleci.com:
   - Go to [circleci dashboard](https://circleci.com/dashboard) and select "Add projects"
+- Setup elixir & gulp:
+  - Install gulp globally: `sudo npm install --global gulp`
+  - Lock npm requirements: ` npm shrinkwrap`
+  - Install npm dependencies: `npm install`
+    - or `npm install --no-bin-links` for windows
+  - To run gulp, you have these commands:
+    - `gulp` (run all tasks)
+    - `gulp watch` (run all tasks and look for changes)
+    - `gulp --production` (run all tasks and minify all CSS and JavaScript)
+
