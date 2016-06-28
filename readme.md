@@ -7,7 +7,7 @@ The laravel version used is v5.2.35.
 
 ### Instructions
 
-- Clone and delete .git directory to have a clean fork
+- Clone and delete .git directory to have a clean fork: `rm -rf .git`
 - Run `composer install`
 
 - Initialize laravel project:
